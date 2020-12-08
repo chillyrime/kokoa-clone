@@ -24,3 +24,9 @@ body {
   width: 65%;
   opacity: 0.5;
 }
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
