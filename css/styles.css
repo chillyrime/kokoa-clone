@@ -30,3 +30,20 @@ body {
   flex-direction: column;
   margin: 0px 30px;
 }
+
+#login-form input {
+  border: none;
+  padding: 15px 0px;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  /* margin-bottom: 25px; */
+}
+
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.login-form__id,
+.login-form__pw {
+  margin-bottom: 10px;
+}
