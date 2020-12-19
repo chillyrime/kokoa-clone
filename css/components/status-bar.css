@@ -1,10 +1,11 @@
 .status-bar {
-  position: fixed;
-  top: 0;
-  width: 100%;
+  position: fixed; /* 고정할건데 어디냐면.. */
+  top: 0; /* 상단에 딱 붙혀서 */
+  width: 100%; /* 가로 100% 고정 */
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  box-sizing: border-box; /* 패딩을 주더라도 주어진 박스 크기는 고정 */
 }
 
 .status-bar__column {
@@ -26,6 +27,6 @@
   align-items: center;
 }
 
-.status-bar__column .fa-battery-three-quarters {
+.status-bar__column .fa-battery-full {
   margin: 0px 5px;
 }

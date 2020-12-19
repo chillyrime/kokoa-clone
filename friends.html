@@ -16,18 +16,64 @@
     <!-- Based on BEM (Block, Element, Modifier) Methodology -->
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span>TRUE-5G</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <span>5:30 PM</span>
       </div>
       <div class="status-bar__column">
-        <span>75%</span>
-        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <span>1000%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle"></i> Friends's Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img class="user-component__avatar user-component__avatar--xl" src="https://avatars1.githubusercontent.com/u/5189547?s=460&u=7929c467341d0b6cb108a8c8f6dd92478c8a7cf7&v=4" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Edward</h4>
+            <!-- <h6 class="user-component__subtitle">subtitle test</h6> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img class="user-component__avatar user-component__avatar--sm" src="https://avatars1.githubusercontent.com/u/5189547?s=460&u=7929c467341d0b6cb108a8c8f6dd92478c8a7cf7&v=4" />
+            <div class="user-component__text">
+              <h4 class="user-component__title user--component__title--not-bold">Channel</h4>
+              <!-- <h6 class="user-component__subtitle">subtitle test</h6> -->
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <nav class="nav">
       <ul class="nav__list">
