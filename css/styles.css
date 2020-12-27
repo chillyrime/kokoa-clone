@@ -6,10 +6,12 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   color: #2e363e;
@@ -17,4 +19,8 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin-top: 26px; /* Status Bar 영역 침범하지 않게 지정 */
   margin-bottom: 73px; /* Navigation Bar 영역 침범하지 않게 지정 */
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
