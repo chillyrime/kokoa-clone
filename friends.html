@@ -23,7 +23,7 @@
         <span>5:30 PM</span>
       </div>
       <div class="status-bar__column">
-        <span>1000%</span>
+        <span>100%</span>
         <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
@@ -34,7 +34,10 @@
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
+        <span class="cog__noti-dot"></span>
       </div>
     </header>
 
@@ -46,7 +49,10 @@
     <main class="friends-screen">
       <div class="user-component">
         <div class="user-component__column">
-          <img class="user-component__avatar user-component__avatar--xl" src="image/cat-ref.jpg" />
+          <img
+            class="user-component__avatar user-component__avatar--xl"
+            src="image/cat-ref.jpg"
+          />
           <div class="user-component__text">
             <h4 class="user-component__title">Edward</h4>
             <!-- <h6 class="user-component__subtitle">subtitle test</h6> -->
@@ -61,9 +67,16 @@
         </div>
         <div class="user-component">
           <div class="user-component__column">
-            <img class="user-component__avatar user-component__avatar--sm" src="image/doggy-ref.jpg" />
+            <img
+              class="user-component__avatar user-component__avatar--sm"
+              src="image/doggy-ref.jpg"
+            />
             <div class="user-component__text">
-              <h4 class="user-component__title user--component__title--not-bold">Channel</h4>
+              <h4
+                class="user-component__title user--component__title--not-bold"
+              >
+                Channel
+              </h4>
               <!-- <h6 class="user-component__subtitle">subtitle test</h6> -->
             </div>
           </div>
@@ -71,6 +84,45 @@
             <div>
               <span>2</span>
               <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="friends-screen__firends">
+        <div class="friends-screen__friends-header">
+          <span>Friends 2</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar--sm"
+              src="image/ahri.png"
+            />
+            <div class="user-component__text">
+              <h4
+                class="user-component__title user--component__title--not-bold"
+              >
+                Ahri
+              </h4>
+              <h6 class="user-component__subtitle">Don't you trust me?</h6>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar--sm"
+              src="image/teemo.png"
+            />
+            <div class="user-component__text">
+              <h4
+                class="user-component__title user--component__title--not-bold"
+              >
+                Teemo
+              </h4>
+              <h6 class="user-component__subtitle">Captain Teemo on duty!</h6>
             </div>
           </div>
         </div>
@@ -86,7 +138,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__noti-num badge">1</span>
+            <span class="nav__noti-num badge">9</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
@@ -103,7 +155,14 @@
         </li>
       </ul>
     </nav>
-    
-    </form>
+    <div id="splash-screen">
+      <i class="fas fa-comment"></i>
+    </div>
+    <div id="no-mobile">
+      <span>Your screen is too big! (ºΔº)!</span>
+    </div>
+    <div id="no-landscape">
+      <span>Please make your screen vertical! ( ｰ̀εｰ́ )</span>
+    </div>
   </body>
 </html>

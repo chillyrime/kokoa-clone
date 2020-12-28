@@ -1,4 +1,5 @@
 .status-bar {
+  background-color: white;
   position: fixed; /* 고정할건데 어디냐면.. */
   top: 0; /* 상단에 딱 붙혀서 */
   width: 100%; /* 가로 100% 고정 */

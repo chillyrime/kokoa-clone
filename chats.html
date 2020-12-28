@@ -23,7 +23,7 @@
         <span>5:30 PM</span>
       </div>
       <div class="status-bar__column">
-        <span>1000%</span>
+        <span>100%</span>
         <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
@@ -35,23 +35,51 @@
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
+        <span class="cog__noti-dot"></span>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img class="user-component__avatar user-component__avatar" src="image/cat-ref.jpg" />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Edward</h4>
-            <h6 class="user-component__subtitle">Please check my Kokoa Account Info</h6>
+      <div class="chats-screen__friends">
+        <a href="chat-ahri.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                class="user-component__avatar user-component__avatar"
+                src="image/ahri.png"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">Ahri</h4>
+                <h6 class="user-component__subtitle">Great. See ya!</h6>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <span class="user-component__time">5:30 PM</span>
+              <div class="badge--no-msg">0</div>
+            </div>
           </div>
-        </div>
-        <div class="user-component__column">
-            <span class="user-component__time">21:22</span>
-            <div class="badge">1</div>
-        </div>
+        </a>
+        <a href="chat-teemo.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                class="user-component__avatar user-component__avatar"
+                src="image/teemo.png"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">Teemo</h4>
+                <h6 class="user-component__subtitle">LoL?</h6>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <span class="user-component__time">Yesterday</span>
+              <div class="badge">9</div>
+            </div>
+          </div>
+        </a>
       </div>
     </main>
 
@@ -64,7 +92,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__noti-num badge">1</span>
+            <span class="nav__noti-num badge">9</span>
             <i class="fas fa-comment fa-2x"></i>
           </a>
         </li>
@@ -81,7 +109,11 @@
         </li>
       </ul>
     </nav>
-    
-    </form>
+    <div id="no-mobile">
+      <span>Your screen is too big! (ºΔº)!</span>
+    </div>
+    <div id="no-landscape">
+      <span>Please make your screen vertical! ( ｰ̀εｰ́ )</span>
+    </div>
   </body>
 </html>
