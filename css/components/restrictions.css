@@ -24,7 +24,7 @@
   top: 0;
 }
 
-/* 세로모드일 때 화면너비가 500px 이하면, 화면을 사용할 수 있게 만드는 미디어 쿼리 */
+/* 세로모드일 때 화면너비가 600px 이하면, 화면을 사용할 수 있게 만드는 미디어 쿼리 */
 @media screen and (orientation: portrait) and (max-width: 600px) {
   #no-mobile {
     display: none;
@@ -34,7 +34,7 @@
   }
 }
 
-/* 세로모드일 때 화면너비가 501px 이상이면, 화면 줄여달라고 요청하는 화면 띄우는 미디어 쿼리 */
+/* 세로모드일 때 화면너비가 601px 이상이면, 화면 줄여달라고 요청하는 화면 띄우는 미디어 쿼리 */
 @media screen and (orientation: portrait) and (min-width: 601px) {
   #no-mobile {
     display: flex;
@@ -44,7 +44,7 @@
   }
 }
 
-/* 가로모드일 때 화면너비가 501px 이상이면, 세로모드로 변경요청하는 화면 띄우는 미디어 쿼리 */
+/* 가로모드일 때 화면너비가 601px 이상이면, 세로모드로 변경요청하는 화면 띄우는 미디어 쿼리 */
 @media screen and (orientation: landscape) and (min-width: 601px) {
   #no-mobile {
     display: none;
